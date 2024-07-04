@@ -8,7 +8,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "prettier . --write"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +22,9 @@
   "devDependencies": {
     "@types/node": "20.14.9",
     "@types/react": "18.3.3",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.4",
+    "prettier": "3.3.2",
     "typescript": "^5.5.3"
   }
 }
